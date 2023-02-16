@@ -9,3 +9,21 @@ ID: oldmdcjbaipgpigdcbabflbjgoejkclo
 
 later for my practices i deploy this API project into cloud(AWS) also.
 
+
+manifest format
+///////////////////////////////////////////////////////////////////////////
+{
+  "name": "Crypto Tracker",
+  "version": "1.0.0",
+  "description": "prices,volume,market-cap of top crytocurrencies",
+  "manifest_version": 3,
+  "author": "Mujahid Shaik",
+  "action":{
+      "default_popup": "index.html",
+      "default_title": "Crypto Tracking"
+  },
+  "icons":{
+    "128":"logo.jpeg"
+  }
+}
+///////////////////////////////////////////////////////////////////////////
